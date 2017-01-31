@@ -70,7 +70,14 @@ h2, h4{
   font-family: 'Lato', sans-serif;
 }
 
-.inBlockLink{
+.inBlockLink-github{
+  float: left;
+  color:#e82737;
+  font-size: 16px;
+}
+
+.inBlockLink-heroku{
+  float: right;
   color:#e82737;
   font-size: 16px;
 }
