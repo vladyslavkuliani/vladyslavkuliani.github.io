@@ -139,17 +139,9 @@ i:hover{
 }
 
 @media (max-width: 1200px) {
-  body{
-    background-image: url("images/background.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    z-index: 1;
-  }
-
   .navBar li{
     font-size: 35px;
   }
-
   .name{
     font-size: 100px;
     margin-top: 200px;
