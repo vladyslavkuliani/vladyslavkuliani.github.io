@@ -141,6 +141,10 @@ i:hover{
 }
 
 @media (max-width: 800px) and (min-width: 400px){
+  .name{
+    margin-top: 35px;
+  }
+
   .navBar li{
     font-size: 35px;
   }
@@ -191,6 +195,16 @@ i:hover{
 }
 
 @media (max-width: 400px){
+  .name{
+    margin-top: 35px;
+  }
+
+  body{
+    background-image: url("http://i.imgur.com/sqQfjzT.jpg?1");
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 1;
+  }
   #profile_pic{
     margin-top: 13%;
   }
