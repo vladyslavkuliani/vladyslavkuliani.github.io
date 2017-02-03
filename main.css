@@ -167,4 +167,15 @@ i:hover{
   .name{
     font-size: 100px;
   }
+  .aboutMe{
+    width: 100%;
+    height: auto;;
+    background: white;
+    text-align: center;
+    padding-bottom: 20%;
+  }
+  #profile_pic{
+    margin-top: 20%;
+    transition: 0.5s;
+  }
 }
