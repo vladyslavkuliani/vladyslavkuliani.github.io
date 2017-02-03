@@ -141,7 +141,7 @@ i:hover{
   border: 1px solid #cdc8b6;
 }
 
-@media (max-width: 1400px){
+@media (max-device-width: 1400px){
   .portfolio{
     margin-top: 30%;
   }
@@ -158,7 +158,7 @@ i:hover{
   }
 }
 
-@media (max-width: 800px){
+@media (max-device-width: 800px){
   .name{
     margin-top: 100px;
   }
