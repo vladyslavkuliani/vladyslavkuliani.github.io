@@ -156,6 +156,11 @@ i:hover{
 }
 
 @media (max-width: 800px){
+  body{
+    background-size: auto;
+    background-position: center;
+    transition: 0.5s;
+  }
   .portfolio{
     margin-top: 30%;
     transition: 0.5s;
