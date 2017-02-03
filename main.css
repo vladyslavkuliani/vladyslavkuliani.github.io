@@ -156,17 +156,9 @@ i:hover{
 }*/
 
 @media (max-width: 800px){
-  body{
-    background-image: url("images/v-background-small.jpg");
-    transition: 0.5s;
-  }
   .portfolio{
     margin-top: 30%;
     transition: 0.5s;
-  }
-  .name{
-    color: white;
-    font-size: 100px;
   }
   .aboutMe{
     width: 100%;
