@@ -159,6 +159,9 @@ i:hover{
   .name{
     margin-top: 100px;
   }
+  .portfolio{
+    margin-top: 50%;
+  }
   .aboutMe{
     width: 100%;
     height: auto;
