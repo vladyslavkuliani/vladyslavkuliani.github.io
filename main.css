@@ -141,24 +141,7 @@ i:hover{
   border: 1px solid #cdc8b6;
 }
 
-@media (max-device-width: 1400px){
-  .portfolio{
-    margin-top: 30%;
-  }
-  .aboutMe{
-    width: 100%;
-    height: auto;
-    background: white;
-    text-align: center;
-    padding-bottom: 20%;
-  }
-  #profile_pic{
-    margin-top: 20%;
-    transition: 0.5s;
-  }
-}
-
-@media (max-device-width: 800px){
+@media (max-width: 800px){
   .name{
     margin-top: 100px;
   }
