@@ -157,12 +157,14 @@ i:hover{
 
 @media (max-width: 800px){
   body{
-    background-size: auto;
-    background-position: center;
+    background-image: url("images/v-background-small.jpg");
     transition: 0.5s;
   }
   .portfolio{
     margin-top: 30%;
     transition: 0.5s;
+  }
+  .name{
+    font-size: 100px;
   }
 }
