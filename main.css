@@ -141,10 +141,13 @@ i:hover{
   border: 1px solid #cdc8b6;
 }
 
-/*@media (max-width: 1000px){
+@media (max-width: 1400px){
+  .portfolio{
+    margin-top: 30%;
+  }
   .aboutMe{
     width: 100%;
-    height: auto;;
+    height: auto;
     background: white;
     text-align: center;
     padding-bottom: 20%;
@@ -153,7 +156,7 @@ i:hover{
     margin-top: 20%;
     transition: 0.5s;
   }
-}*/
+}
 
 @media (max-width: 800px){
   .name{
