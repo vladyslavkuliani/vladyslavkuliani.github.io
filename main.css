@@ -155,7 +155,7 @@ i:hover{
   }
 
 }
-@media (max-width: 380px){
+@media (max-width: 400px){
   body{
     background-image: url("http://i.imgur.com/sqQfjzT.jpg?1");
     background-size: cover;
