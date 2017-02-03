@@ -2,6 +2,7 @@ body{
   background-image: url("images/background.jpg");
   background-size: cover;
   background-attachment: fixed;
+  transition: 0.5s;
   z-index: 1;
 }
 
@@ -157,9 +158,10 @@ i:hover{
 }
 @media (max-width: 400px){
   body{
-    background-image: url("http://i.imgur.com/sqQfjzT.jpg?1");
+    background-image: url("http://i.imgur.com/mHFlvrW.jpg?1");
     background-size: cover;
     background-attachment: fixed;
+    transition: 0.5s;
     z-index: 1;
   }
   .aboutMe{
