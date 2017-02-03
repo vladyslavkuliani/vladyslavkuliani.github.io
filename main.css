@@ -1,6 +1,6 @@
 body{
   background-image: url("images/background2.jpg");
-  background-size: cover;
+  background-size: 100% 100vh;
   background-position: center;
   background-attachment: fixed;
   transition: 0.5s;
@@ -156,11 +156,9 @@ i:hover{
     margin-top: 20%;
     transition: 0.5s;
   }
-
-}
-@media (max-width: 800px){
   body{
-    background-position: center;
+    /*transform: scale(0.5);*/
+    background-size: 100% 100vh;
     transition: 0.5s;
   }
 }
