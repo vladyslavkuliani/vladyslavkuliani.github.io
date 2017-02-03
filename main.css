@@ -147,6 +147,30 @@ i:hover{
     height: auto;;
     background: white;
     text-align: center;
-    padding-bottom: 10%;
+    padding-bottom: 20%;
+  }
+  #profile_pic{
+    margin-top: 20%;
+    transition: 0.5s;
+  }
+
+}
+@media (max-width: 380px){
+  body{
+    background-image: url("http://i.imgur.com/sqQfjzT.jpg?1");
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 1;
+  }
+  .aboutMe{
+    width: 100%;
+    height: auto;;
+    background: white;
+    text-align: center;
+    padding-bottom: 20%;
+  }
+  #profile_pic{
+    margin-top: 20%;
+    transition: 0.5s;
   }
 }
