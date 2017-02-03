@@ -156,9 +156,8 @@ i:hover{
 }*/
 
 @media (max-width: 800px){
-  .portfolio{
-    margin-top: 40%;
-    transition: 0.5s;
+  .name{
+    margin-top: 100px;
   }
   .aboutMe{
     width: 100%;
