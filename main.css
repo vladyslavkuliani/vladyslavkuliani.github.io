@@ -141,7 +141,7 @@ i:hover{
   border: 1px solid #cdc8b6;
 }
 
-@media (max-width: 1000px){
+/*@media (max-width: 1000px){
   .aboutMe{
     width: 100%;
     height: auto;;
@@ -153,7 +153,7 @@ i:hover{
     margin-top: 20%;
     transition: 0.5s;
   }
-}
+}*/
 
 @media (max-width: 800px){
   body{
