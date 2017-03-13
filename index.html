@@ -34,8 +34,9 @@
     </div>
     <div id="portfolio" class="container portfolio" ng-controller="ProjectsController as projectsCtrl">
       <div class="row">
-        <h1 class="p">My Projects</h1>
-        <hr class="redHR">
+          <h1 class="col-md-6 p selected-tab">My Projects</h1>
+          <h1 class="col-md-6 p not-selected"><span class="code-challenges">Code Challenges</span><span class="coming-soon">Coming Soon...</span></h1>
+
         <div ng-repeat="project in projectsCtrl.projects" class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 project">
           <h2 class="inBlockText">{{project.name}}</h2>
           <h4 class="inBlockText">{{project.description}}</h4>

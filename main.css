@@ -61,10 +61,50 @@ h3{
 }
 
 .p{
-  color: white;
+  color: rgb(31, 42, 48);
   font-family: 'Kumar One', cursive;
-  margin-bottom: 20px;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  border-bottom: 2px solid white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  cursor: pointer;
+  /*border-left: 0px solid white;*/
+  padding-right: 0px;
+  transition-duration: .5s;
 }
+
+.p:hover{
+  color: #d32323;
+  padding-right: 15px;
+}
+
+.p .coming-soon{
+  display: none;
+}
+
+.p:hover .coming-soon{
+  display: inline-block;
+}
+
+.p .code-challenges{
+  display: inline-block;
+}
+
+.p:hover .code-challenges{
+  display: none;
+}
+
+.selected-tab{
+  color: rgb(31, 42, 48);
+  background: white;
+}
+
+.not-selected{
+  color: white;
+}
+
+
 
 h2, h4{
   color: white;
