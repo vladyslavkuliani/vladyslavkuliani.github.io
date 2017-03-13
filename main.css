@@ -22,6 +22,7 @@ header {
 .navBar a{
   color: white;
   font-family: 'Abril Fatface', cursive;
+  text-decoration: none;
 }
 
 .navBar a:hover{
