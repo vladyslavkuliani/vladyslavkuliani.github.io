@@ -205,8 +205,12 @@ i:hover{
   }
   .navBar li{
   font-size: 23px;
-  margin: 0 5px;
+  margin: 0 0px;
   transition: .5s;
+  }
+  
+  a[href="#portfolio"]{
+    margin: 0 15px;
   }
   header{
     text-align: center;
