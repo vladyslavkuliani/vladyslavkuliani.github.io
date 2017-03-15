@@ -17,6 +17,7 @@ header {
   display: inline-block;
   font-size: 25px;
   margin: 0 10px;
+  transition: .5s;
 }
 
 .navBar a{
@@ -45,10 +46,6 @@ header {
   text-align: center;
 }
 
-.project{
-  /*border: 2px solid white;*/
-}
-
 .name{
   font-family: 'Abril Fatface', cursive;
   font-size: 50px;
@@ -70,7 +67,6 @@ h3{
   padding-top: 15px;
   padding-bottom: 15px;
   cursor: pointer;
-  /*border-left: 0px solid white;*/
   padding-right: 0px;
   transition-duration: .5s;
 }
@@ -182,7 +178,7 @@ i:hover{
   border: 1px solid #cdc8b6;
 }
 
-@media (max-width: 800px){
+@media (max-width: 1000px){
   .name{
     margin-top: 100px;
   }
@@ -199,5 +195,20 @@ i:hover{
   #profile_pic{
     margin-top: 20%;
     transition: 0.5s;
+  }
+
+  .p{
+      margin-bottom: 0px;
+  }
+  .projects-container{
+    margin-top: 160px;
+  }
+  .navBar li{
+  font-size: 23px;
+  margin: 0 5px;
+  transition: .5s;
+  }
+  header{
+    text-align: center;
   }
 }
