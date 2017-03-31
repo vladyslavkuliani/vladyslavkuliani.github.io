@@ -14,7 +14,7 @@ function ProjectsController() {
         name: "SF-Nights",
         html_url: "https://github.com/vladyslavkuliani/SF-Nights",
         description: "Application that allows you to browse night dance clubs around you and let you comment and rate places just for tonight only. New day - new rating - new comments. (MERN Stack, Google API, Yelp API)",
-        heroku_url: ""
+        heroku_url: "https://sfnights-demo.herokuapp.com/"
     }, {
         name: "Vagabond",
         html_url: "https://github.com/vladyslavkuliani/vagabond-team1",
