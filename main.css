@@ -13,29 +13,53 @@ header {
   padding-top: 20px;
 }
 
-.navBar li{
+.navigation-section {
+  float: left;
+}
+.navigation-section li{
   display: inline-block;
   font-size: 25px;
   margin: 0 10px;
   transition: .5s;
 }
 
-.navBar a{
+.navigation-section a{
   color: white;
   font-family: 'Abril Fatface', cursive;
   text-decoration: none;
 }
 
-.navBar a:hover{
+.navigation-section a:hover{
   color: #e82737;
   text-decoration: none;
+}
+
+.technologies-section {
+  float: right;
+  margin-right: 43px;
+  display: flex;
+}
+
+.technologies-section li{
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.technology-logo {
+  width: 57px;
+  height: 40px;
+}
+
+#fsharp-logo {
+  width: 40px;
+  height: 40px;
 }
 
 #profile_pic{
   width: 150px;
   height: 150px;
   border-radius: 100%;
-  margin-top: 10%;
+  margin-top: 10%;e
   transition: 0.5s;
 }
 
@@ -130,6 +154,7 @@ h2, h4{
   height: 100vh;
   background: white;
   text-align: center;
+  margin-top: 100vh;
 }
 
 .icons{
