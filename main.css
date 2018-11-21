@@ -30,7 +30,7 @@ header {
 }
 
 .navigation-section a:hover{
-  color: #e82737;
+  color: #b44c53;
   text-decoration: none;
 }
 
@@ -167,7 +167,7 @@ h2, h4{
 }
 
 i:hover{
-  color: white;
+  color: #b44c53;
 }
 
 .who{
@@ -235,7 +235,7 @@ i:hover{
   margin-right: 0;
   transition: .5s;
   }
-  
+
   a[href="#portfolio"]{
     margin: 0 15px;
   }
